@@ -132,7 +132,7 @@ docker container run --detach --publish 8080:80 diamol/ch02-hello-diamol-web
 docker container top <컨테이너ID>: 대상 컨테이너에서 실행중인 프로세스 목록
 docker container logs <컨테이너ID>: 대상 컨테이너에서 수집된 모든 로그 출력
 docker container inspect <컨테이너ID>: 대상 컨테이너의 상세한 정보 출력
-docker container status <컨테이너ID>: 실행중인 컨테이너의 상태 확인
+docker container stats <컨테이너ID>: 실행중인 컨테이너의 상태 확인
 
 ## 플래그 정리
 
